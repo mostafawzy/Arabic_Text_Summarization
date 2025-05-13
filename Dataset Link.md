@@ -1,2 +1,3 @@
+## 🔗 Dataset Link
 
-— [Dataset Link](https://www.kaggle.com/datasets/abdalrahmanshahrour/arabicsummarization)
+👉[arabic text summarization](https://www.kaggle.com/datasets/abdalrahmanshahrour/arabicsummarization)
