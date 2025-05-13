@@ -1,0 +1,194 @@
+/* styles/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@700&family=Tajawal:wght@700&display=swap');
+
+body, html {
+  font-family: 'Cairo', sans-serif;
+}
+
+/*D:\translation-app\src\styles\style.css */
+.container1 {
+  width: 100%;
+  min-height: 65vh;
+
+  margin-top: 5%;
+  margin-bottom: 3%;
+
+  padding: 2% 8% ;
+  background-color: #f8efe4;
+  border-radius: 5px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.21); */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  /* Remove max-width if you want full screen width on all screens */
+  /* max-width: none; */
+}
+
+  
+  .l_paper2 {
+    padding: 30px;
+    padding-top: 1.5%;
+    width: 70%;
+    height: 400px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  
+  .r_paper1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    width: 60%;
+    height: 400px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-left: 1%;
+    
+  }
+  
+  .label1 {
+    flex: 1;
+    border-radius: 5px;
+    padding: 14px;
+    font-family: 'Lucida Sans';
+    background-color: #C9E9D2;
+    color: #64614ef7;
+    font-family: 'Cairo';
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .enterbox {
+    flex: 1;
+    margin-top: 2%;
+    
+    text-align: right;
+    margin-right: 20px;
+    
+    border-style: none;
+    width: 100%;
+    max-width: 1000px;
+    text-align: right;
+    direction: rtl;
+    
+    /* height: 100%;
+    background-color: #f6f0ee45; */
+  }
+  
+
+  
+  .button1 {
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 20px;
+    /* greenish */
+    color: #789DBC !important;
+    padding: 10px 20px;
+    border: 2px solid #789DBC !important;
+    transition: background-color 1.5s ease, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button1:hover {
+    background-color: #C7D9DD !important; /* darker green */
+    transform: scale(1.05);
+  }
+  
+  .button2 {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #567e9e !important; /* soft red */
+    border: 2px solid #789DBC !important;
+    color: white !important;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: background-color 1.5s ease, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #eaf2f7;
+  }
+  
+  .button2:hover {
+    background-color: #d4e5e9 !important; /* darker red */
+    /* transform: scale(1.05); */
+    color: #567e9e  !important;
+  }
+  
+  .button2 .icon-style {
+    color: white; /* default icon color matches text */
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .button2:hover .icon-style {
+    color: #567e9e; /* match hover text color */
+  }
+  
+ 
+  .header1 {
+    /* text-align: right;
+    padding: 10px;
+    width: fit-content;
+    max-width: 60%;
+    margin: 0 0 10px auto;  /* Push to the right inside flex */ /* 
+    
+    font-size: 1.2rem;
+    color: #64614ef7;
+    background-color: #C9E9D2; 
+    border: 2px solid #c2ced8a6 !important;*/
+    color: #64614e92 !important;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  .resultbox {
+    display: flex;                  /* MUST be a flex container */
+    flex-direction: column;         /* Vertical stacking */
+    align-items: flex-end;          /* Align children (like .header1) to the right */
+    
+    padding: 13px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #e6e3e25f;
+    overflow: auto;
+    max-height: 300px;
+    flex: 1;
+  }
+  
+  
+
+  /* Shared base for icons */
+.action-button i,
+.upload-button i {
+  color: #64614ea9; /* Icon color */
+  font-size: 20px;
+}
+
+/* Common button styling */
+.action-button,
+.upload-button {
+  border: 2px solid #c2ced8a6 !important;
+  color: #64614ea9 !important;
+  background-color: #eaf2f7;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* .action-button:hover,
+.upload-button:hover {
+  background-color: #d4e5e9 !important;
+  color: #345d74 !important;
+  border-color: #345d74 !important;
+} */

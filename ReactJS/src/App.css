@@ -1,0 +1,18 @@
+  /* App.css */
+  /* App.css */
+body, html {
+  font-family: 'Tajawal', 'Cairo', 'Amiri', serif;
+}
+
+  body, html, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .d-flex.vh-100 {
+    min-height: calc(50vh - 56px); /* Adjust for navbar height */
+  }
+  .MuiButton-root, .MuiTypography-root {
+    font-family: 'cairo', serif; /* Or another Arabic-friendly font */
+  }
